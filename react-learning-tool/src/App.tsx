@@ -6,6 +6,7 @@ import ErrorComponentExample from './components/ErrorBoundary/ErrorComponentExam
 import SuspenceExample from './components/SuspenseExample/SuspenseExample';
 import CustomSuspenceExample from './components/SuspenseExample/CustomSuspenseExample';
 import { ReactMemoExample } from './components/reactMemo/ReactMemoExample';
+import { TearingExample } from './components/useSyncExternalStore/TearingExample';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
         {/* <ErrorComponentExample /> */}
         {/* <SuspenceExample /> */}
         {/* <CustomSuspenceExample /> */}
-        <ReactMemoExample/>
+        {/* <ReactMemoExample/> */}
+        <TearingExample />
       </main>
     </div>
   );
