@@ -8,6 +8,7 @@ import CustomSuspenceExample from './components/SuspenseExample/CustomSuspenseEx
 import { ReactMemoExample } from './components/reactMemo/ReactMemoExample';
 import { TearingExample } from './components/useSyncExternalStore/TearingExample';
 import FragmentsExample from './components/fragments/FragmentsExample';
+import OptimazedList from './components/optimazedList/OptimazedList';
 
 function App() {
 
@@ -20,8 +21,10 @@ function App() {
         {/* <SuspenceExample /> */}
         {/* <CustomSuspenceExample /> */}
         {/* <ReactMemoExample/> */}
-        <TearingExample />
-        <FragmentsExample />
+        {/* <TearingExample /> */}
+        {/* <FragmentsExample /> */}
+
+        <OptimazedList />
       </main>
     </div>
   );
