@@ -5,6 +5,7 @@ import './App.css';
 import ErrorComponentExample from './components/ErrorBoundary/ErrorComponentExample';
 import SuspenceExample from './components/SuspenseExample/SuspenseExample';
 import CustomSuspenceExample from './components/SuspenseExample/CustomSuspenseExample';
+import { ReactMemoExample } from './components/reactMemo/ReactMemoExample';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
         {/* <PortalExample />           */}
         {/* <ErrorComponentExample /> */}
         {/* <SuspenceExample /> */}
-        <CustomSuspenceExample />
+        {/* <CustomSuspenceExample /> */}
+        <ReactMemoExample/>
       </main>
     </div>
   );
