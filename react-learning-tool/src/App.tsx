@@ -7,10 +7,11 @@ import SuspenceExample from './components/SuspenseExample/SuspenseExample';
 import CustomSuspenceExample from './components/SuspenseExample/CustomSuspenseExample';
 import { ReactMemoExample } from './components/reactMemo/ReactMemoExample';
 import { TearingExample } from './components/useSyncExternalStore/TearingExample';
+import FragmentsExample from './components/fragments/FragmentsExample';
 
 function App() {
 
-
+    
   return (
     <div className="App">
       <main className="App-header">
@@ -20,6 +21,7 @@ function App() {
         {/* <CustomSuspenceExample /> */}
         {/* <ReactMemoExample/> */}
         <TearingExample />
+        <FragmentsExample />
       </main>
     </div>
   );

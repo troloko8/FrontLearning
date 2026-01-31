@@ -12,7 +12,7 @@ const Child = function Child({ value, name }: { value: number, name?: string }) 
 
 export function ReactMemoExample() {
     const [count, setCount] = useState(0)
-
+    
     return (
         <>
             <button onClick={() => setCount(c => c + 1)}>+</button>
