@@ -9,6 +9,7 @@ import { ReactMemoExample } from './components/reactMemo/ReactMemoExample';
 import { TearingExample } from './components/useSyncExternalStore/TearingExample';
 import FragmentsExample from './components/fragments/FragmentsExample';
 import OptimazedList from './components/optimazedList/OptimazedList';
+import UseMemoCallbackExample from './components/useMemoCalback/useMemoCalback';
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
         {/* <TearingExample /> */}
         {/* <FragmentsExample /> */}
 
-        <OptimazedList />
+        {/* <OptimazedList /> */}
+        <UseMemoCallbackExample />
       </main>
     </div>
   );
