@@ -10,6 +10,8 @@ import { TearingExample } from './components/useSyncExternalStore/TearingExample
 import FragmentsExample from './components/fragments/FragmentsExample';
 import OptimazedList from './components/optimazedList/OptimazedList';
 import UseMemoCallbackExample from './components/useMemoCalback/useMemoCalback';
+import { CustomHookExample } from './components/customHook/CustomHookExample';
+import { ReducerForm } from './components/useReducer/ReducerForm';
 
 function App() {
 
@@ -26,7 +28,9 @@ function App() {
         {/* <FragmentsExample /> */}
 
         {/* <OptimazedList /> */}
-        <UseMemoCallbackExample />
+        {/* <UseMemoCallbackExample /> */}
+        {/* <CustomHookExample /> */}
+        <ReducerForm />
       </main>
     </div>
   );
