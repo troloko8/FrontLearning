@@ -14,6 +14,7 @@ import { CustomHookExample } from './components/customHook/CustomHookExample';
 import { ReducerForm } from './components/useReducer/ReducerForm';
 import LazyInitExample from './components/lazyInitialization/LazyInitExample';
 import ParentLazyInitExample from './components/lazyInitialization/ParentLazyInitExample';
+import ImperativeHandleExample from './components/imperativeHandle/ImperativeHandleExample';
 
 function App() {
 
@@ -33,7 +34,9 @@ function App() {
         {/* <UseMemoCallbackExample /> */}
         {/* <CustomHookExample /> */}
         {/* <ReducerForm /> */}
-        <ParentLazyInitExample />
+        {/* <ParentLazyInitExample /> */}
+        {/* <ParentLazyInitExample /> */}
+        <ImperativeHandleExample />
       </main>
     </div>
   );
