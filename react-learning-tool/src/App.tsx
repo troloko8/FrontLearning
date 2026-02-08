@@ -18,6 +18,7 @@ import ParentLazyInitExample from './components/lazyInitialization/ParentLazyIni
 import ImperativeHandleExample from './components/imperativeHandle/ImperativeHandleExample';
 import { ForwardRefExample, InnerRefExample } from './components/forwardRef/ForwardRefExample';
 import { AsyncUseEffect } from './components/AsyncUseEffect.tsx/AsyncUseEffect';
+import { WithoutTransition, WithTransition } from './components/useTransition/UseTransitionExample';
 
 function App() {
 
@@ -42,7 +43,9 @@ function App() {
         {/* <ImperativeHandleExample /> */}
         {/* <ForwardRefExample /> */}
         {/* <InnerRefExample /> */}
-        <AsyncUseEffect />
+        {/* <AsyncUseEffect /> */}
+        <WithoutTransition />
+        <WithTransition />
       </main>
     </div>
   );
