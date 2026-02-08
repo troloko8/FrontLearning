@@ -19,6 +19,7 @@ import ImperativeHandleExample from './components/imperativeHandle/ImperativeHan
 import { ForwardRefExample, InnerRefExample } from './components/forwardRef/ForwardRefExample';
 import { AsyncUseEffect } from './components/AsyncUseEffect.tsx/AsyncUseEffect';
 import { WithoutTransition, WithTransition } from './components/useTransition/UseTransitionExample';
+import { UseDefferedValueSearch, UsualSearch } from './components/useDefferedValue/UseDefferedValue';
 
 function App() {
 
@@ -44,8 +45,11 @@ function App() {
         {/* <ForwardRefExample /> */}
         {/* <InnerRefExample /> */}
         {/* <AsyncUseEffect /> */}
-        <WithoutTransition />
+        {/* <WithoutTransition /> */}
         <WithTransition />
+
+        <UseDefferedValueSearch />
+        {/* <UsualSearch /> */}
       </main>
     </div>
   );
