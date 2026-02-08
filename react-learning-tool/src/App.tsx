@@ -17,6 +17,7 @@ import ParentLazyInitExample from './components/lazyInitialization/ParentLazyIni
 // import ImperativeHandleExample from './components/imperativeHandle/ImperativeHandleExample';
 import ImperativeHandleExample from './components/imperativeHandle/ImperativeHandleExample';
 import { ForwardRefExample, InnerRefExample } from './components/forwardRef/ForwardRefExample';
+import { AsyncUseEffect } from './components/AsyncUseEffect.tsx/AsyncUseEffect';
 
 function App() {
 
@@ -39,8 +40,9 @@ function App() {
         {/* <ParentLazyInitExample /> */}
         {/* <ParentLazyInitExample /> */}
         {/* <ImperativeHandleExample /> */}
-        <ForwardRefExample />
-        <InnerRefExample />
+        {/* <ForwardRefExample /> */}
+        {/* <InnerRefExample /> */}
+        <AsyncUseEffect />
       </main>
     </div>
   );
