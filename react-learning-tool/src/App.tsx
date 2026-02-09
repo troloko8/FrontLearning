@@ -20,6 +20,7 @@ import { ForwardRefExample, InnerRefExample } from './components/forwardRef/Forw
 import { AsyncUseEffect } from './components/AsyncUseEffect.tsx/AsyncUseEffect';
 import { WithoutTransition, WithTransition } from './components/useTransition/UseTransitionExample';
 import { UseDefferedValueSearch, UsualSearch } from './components/useDefferedValue/UseDefferedValue';
+import MemoizationSample from './components/memoization/MemoizationSample';
 
 function App() {
 
@@ -46,10 +47,11 @@ function App() {
         {/* <InnerRefExample /> */}
         {/* <AsyncUseEffect /> */}
         {/* <WithoutTransition /> */}
-        <WithTransition />
+        {/* <WithTransition />/ */}
 
-        <UseDefferedValueSearch />
+        {/* <UseDefferedValueSearch /> */}
         {/* <UsualSearch /> */}
+        <MemoizationSample />
       </main>
     </div>
   );
