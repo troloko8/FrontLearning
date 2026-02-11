@@ -1,6 +1,6 @@
 import React from "react"
 
-function MyInput1({ innerRef }: { innerRef: React.RefObject<HTMLInputElement | null> }) {
+function MyInput1({ innerRef }: { innerRef: React.RefObject<HTMLInputElement> }) {
   console.log('MyInput1 render')
   return <input ref={innerRef} />
 }

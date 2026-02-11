@@ -21,6 +21,7 @@ import { AsyncUseEffect } from './components/AsyncUseEffect.tsx/AsyncUseEffect';
 import { WithoutTransition, WithTransition } from './components/useTransition/UseTransitionExample';
 import { UseDefferedValueSearch, UsualSearch } from './components/useDefferedValue/UseDefferedValue';
 import MemoizationSample from './components/memoization/MemoizationSample';
+import VirtualizationExample from './components/virtualization/VirtualizationExample';
 
 function App() {
 
@@ -51,7 +52,8 @@ function App() {
 
         {/* <UseDefferedValueSearch /> */}
         {/* <UsualSearch /> */}
-        <MemoizationSample />
+        {/* <MemoizationSample /> */}
+        <VirtualizationExample />
       </main>
     </div>
   );
