@@ -22,6 +22,8 @@ import { WithoutTransition, WithTransition } from './components/useTransition/Us
 import { UseDefferedValueSearch, UsualSearch } from './components/useDefferedValue/UseDefferedValue';
 import MemoizationSample from './components/memoization/MemoizationSample';
 import VirtualizationExample from './components/virtualization/VirtualizationExample';
+import { ChunkedComputation } from './components/heavyComputation/ChunkedComputation';
+import { WebWorkerExample } from './components/heavyComputation/WebWorkerExample';
 
 function App() {
 
@@ -53,7 +55,9 @@ function App() {
         {/* <UseDefferedValueSearch /> */}
         {/* <UsualSearch /> */}
         {/* <MemoizationSample /> */}
-        <VirtualizationExample />
+        {/* <VirtualizationExample /> */}
+        {/* <ChunkedComputation /> */}
+        <WebWorkerExample />
       </main>
     </div>
   );
