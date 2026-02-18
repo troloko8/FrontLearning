@@ -1,7 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
-import { addCustomerAction, removeCustomerAction } from './store/customerReducer';
+import { addCustomerAction, addManyCustomersAction, removeCustomerAction } from './store/customerReducer';
+import { fetchCustomers } from './store/asyncActions/customers';
 
 const OldRedux: React.FC = () => {
 
@@ -38,7 +39,8 @@ const OldRedux: React.FC = () => {
 
             <button onClick={() => removeCustomer(customers[customers.length - 1]?.id)}>Remove Customer</button>
             <button onClick={() => addCustomer('Customer ' + (customers.length + 1))}>Add Customer</button>
-
+            <button onClick={() => dispatch(fetchCustomers() as any)}>Fetch Customers</button>
+            
         {customers.length > 0 && (
             <>
                 <h1>Customers: {customers.length}</h1>

@@ -1,11 +1,11 @@
-import exp from "constants"
-
 const defaultState = {
     customers: []
 }
 
 export const customerReducer = (state = defaultState, action) => {
     switch(action.type) {
+        case 'ADD_MANY_CUSTOMERS':
+        return { ...state, customers: [...state.customers, ...action.payload] }
         case 'ADD_CUSTOMER':
         return { ...state, customers: [...state.customers, action.payload] }
         case 'REMOVE_CUSTOMER':
@@ -26,5 +26,12 @@ export const removeCustomerAction = (id) => {
     return {
         type: 'REMOVE_CUSTOMER',
         payload: id
+    }
+}
+
+export const addManyCustomersAction = (payload) => {
+    return {
+        type: 'ADD_MANY_CUSTOMERS',
+        payload
     }
 }
