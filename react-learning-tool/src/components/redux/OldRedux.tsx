@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 
 const OldRedux: React.FC = () => {
 
-    const count = useSelector((state: any) => state.count);
+    const count = useSelector((state: any) => state.count.count);
 
     const dispatch = useDispatch();
 
