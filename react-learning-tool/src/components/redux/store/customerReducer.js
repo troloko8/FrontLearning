@@ -35,3 +35,9 @@ export const addManyCustomersAction = (payload) => {
         payload
     }
 }
+
+export const sagaFetchUsers = (payload) => {
+    return {
+        type: 'SAGA_FETCH_USERS'
+    }
+}

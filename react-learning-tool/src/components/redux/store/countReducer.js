@@ -13,3 +13,20 @@ export const countReducer = (state = defaultState, action) => {
         return state
     }
 }
+
+
+export const incrementCustomAction = (count) => {
+    return { type: 'INCREMENT', payload: count }
+};
+
+export const decrementCustomAction = (count) => {
+    return { type: 'DECREMENT', payload: count}
+};
+
+export const asyncIncrementCreator = (count) => {
+    return { type: 'ASYNC_INCREMENT', payload: count}
+};
+
+export const asyncDecrementCreator = (count) => {
+    return { type: 'ASYNC_DECREMENT'}
+};
