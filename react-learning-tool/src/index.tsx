@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { hydrateRoot } from 'react-dom/client'
 import Counter from './components/react_js/hydratation/Cuounter';
 import { Provider } from 'react-redux';
-import { store } from './components/redux/store';
+import { store } from './components/redux/oldRedux/store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

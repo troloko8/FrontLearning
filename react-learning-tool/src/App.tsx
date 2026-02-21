@@ -24,7 +24,7 @@ import MemoizationSample from './components/react_js/memoization/MemoizationSamp
 import VirtualizationExample from './components/react_js/virtualization/VirtualizationExample';
 import { ChunkedComputation } from './components/react_js/heavyComputation/ChunkedComputation';
 import { WebWorkerExample } from './components/react_js/heavyComputation/WebWorkerExample';
-import OldRedux from './components/redux/OldRedux';
+import OldRedux from './components/redux/oldRedux/OldRedux';
 
 function App() {
   return (
@@ -59,6 +59,7 @@ function App() {
         {/* <WebWorkerExample /> */}
 
         {/* redux */}
+        <OldRedux />
         <OldRedux />
 
       </main>
