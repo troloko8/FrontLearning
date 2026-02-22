@@ -25,6 +25,7 @@ import VirtualizationExample from './components/react_js/virtualization/Virtuali
 import { ChunkedComputation } from './components/react_js/heavyComputation/ChunkedComputation';
 import { WebWorkerExample } from './components/react_js/heavyComputation/WebWorkerExample';
 import OldRedux from './components/redux/oldRedux/OldRedux';
+import NewRedux from './components/redux/newRedux/NewRedux';
 
 function App() {
   return (
@@ -59,8 +60,8 @@ function App() {
         {/* <WebWorkerExample /> */}
 
         {/* redux */}
-        <OldRedux />
-        <OldRedux />
+        {/* <OldRedux /> */}
+        <NewRedux />
 
       </main>
     </div>

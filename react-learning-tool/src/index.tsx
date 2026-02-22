@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { hydrateRoot } from 'react-dom/client'
 import Counter from './components/react_js/hydratation/Cuounter';
 import { Provider } from 'react-redux';
+import { setupStore } from './components/redux/newRedux/store/store';
 import { store } from './components/redux/oldRedux/store';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
 
-  <Provider store={store}>
+  // Old redux
+  // <Provider store={store}>
+  <Provider store={setupStore()}>
     <App />
   </Provider>
   // <React.StrictMode>

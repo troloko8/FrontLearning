@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "new 2",
+      "body": "new body 2"
+    },
+    {
+      "id": 3,
+      "title": "yet another json-server post",
+      "body": "typicode  2da das dsa d saads da da sdas "
+    },
+    {
+      "id": 4,
+      "title": "fourth json-server post",
+      "body": "typicode  2da das dsa d saads da da sdas "
+    },
+    {
+      "id": 5,
+      "title": "fifth json-server post",
+      "body": "typicode  2da das dsa d saads da da sdas "
+    },
+    {
+      "title": "asdasd",
+      "body": "asdasdasd",
+      "id": 6
+    },
+    {
+      "title": "sadasd",
+      "body": "asdasdasd",
+      "id": 7
+    },
+    {
+      "title": "NEW POST",
+      "body": "NEW",
+      "id": 8
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
